@@ -5,7 +5,7 @@
     0 - Encrypts a message using the Ceaser cypher
           Encryption with Caesar code shifts the letters in the alphabet by a chosen shift number
           Example a shift of 3:
-          Plain Alphabet:	      ABCDEFGHIJKLMNOPQRSTUVWXYZ#       Caesar Alphabet: (+3)	DEFGHIJKLMNOPQRSTUVWXYZABC
+          Plain Alphabet:  ABCDEFGHIJKLMNOPQRSTUVWXYZ#  Caesar Alphabet: (+3)	DEFGHIJKLMNOPQRSTUVWXYZABC
 
     1 - Decrypts an encrypted message using a known shift key
           Decryption works the inverse way of encryption. The letters in the alphabet are shifted 
