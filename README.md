@@ -2,7 +2,7 @@
 # Created by Logan-proj
  My second python project has three functions:
    
-    0 - Encrypts a message using the Ceaser cipher
+    0 - Encrypts a message using the Caesar cipher
           Encryption with Caesar code shifts the letters in the alphabet by a chosen shift number
           Example a shift of 3:
           Plain Alphabet:  ABCDEFGHIJKLMNOPQRSTUVWXYZ#  Caesar Alphabet: (+3)	DEFGHIJKLMNOPQRSTUVWXYZABC
