@@ -1,4 +1,4 @@
-#imports list of english words > used in brute force dycrytion funtion.
+pip install english-words #imports list of english words > used in brute force dycrytion funtion.
 from english_words import english_words_set
 import string
 alphabet = (string.ascii_lowercase * 2)
