@@ -1,14 +1,14 @@
-from english_words import english_words_set #module list of english words > used in brute force dycrytion funtion.
+from english_words import english_words_set #module list of english words > used in brute force dycrytion function.
 import string
 alphabet = (string.ascii_lowercase * 2)
 shift_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
 
 print("------------------------------------")
-print("Python Ceasar Cypher Encoder/Decoder")
+print("Python Caesar Cipher Encoder/Decoder")
 print("------------------------------------")
 
 #Encryption/Decryption *****
-def caesar_funtion(user_input, input_message, shift):
+def caesar_function(user_input, input_message, shift):
   
   output_message = ""
   for char in input_message:
@@ -61,7 +61,7 @@ def front_page():
   if user_input == 0 or user_input == 1:
     shift = int(input("Enter shift: "))
     shift = shift % 26
-    caesar_funtion(user_input, input_message, shift)
+    caesar_function(user_input, input_message, shift)
   elif user_input == 2:
     print("\n# Brute force decryption function works best with more words\n")
     brute_force_decryption_function(input_message)
