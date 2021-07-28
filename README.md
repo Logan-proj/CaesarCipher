@@ -6,6 +6,7 @@ Created a program that encodes, decodes and brute force decodes Caesar cypher me
 
 0 - Encrypts a message using the Caesar cipher
   Encryption with Caesar code shifts the letters in the alphabet by a chosen shift number
+  
   Example a shift of 3:
   Plain Alphabet:  ABCDEFGHIJKLMNOPQRSTUVWXYZ#  Caesar Alphabet: (+3)	DEFGHIJKLMNOPQRSTUVWXYZABC
 
