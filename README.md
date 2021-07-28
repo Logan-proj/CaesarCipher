@@ -40,8 +40,8 @@ Python is required to run the main.py file
 
 Open the command prompt and enter the following:
 
-    git clone https://github.com/Logan-proj/caesarcypher.git
-    cd caesarcypher
+    git clone https://github.com/Logan-proj/CaesarCipher.git
+    cd CaesarCipher
     python main.py
 
 ## Reference
