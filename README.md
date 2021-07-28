@@ -19,7 +19,7 @@ Created a program that encodes, decodes and brute force decodes Caesar cypher me
 
 2 - Decrypts an encrypted message using a brute force attack method (no need for a shift key)
   The brute force decryption function runs through all possible shift numbers (1-25) to decrypt 
-  each word in the message and then checks the decrypted word against a list of ~ 230,000 English 
+  each word in the message and then checks the decrypted word against a list of ~ 61,569 English 
   words and only prints the message(s) that matches 20% or more of the word list. 
   This prevents from having to look at all 25 possible combinations.
 
